@@ -54,7 +54,6 @@
     $tbs = $re['tbs'];
 
 
-
     /*程序开始*/
     $postdata = array ('BDUSS='.$bduss,'tbs=' . $tbs);
     $postdata = implode('&', $postdata).'&sign='.md5(implode('', $postdata).'tiebaclient!!!');
